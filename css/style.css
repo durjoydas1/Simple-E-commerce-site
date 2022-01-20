@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -189,9 +190,30 @@ span {
     padding-top: 15px;
     border-radius: 30px;
 }
-
-
-
-
+.section3{
+    display: flex;
+    align-items: center;    
+    width: 80%;
+    margin: 150px auto;
+    font-family: 'Roboto', sans-serif;
+}
+.section3 img{
+    width: 500px;
+}
+.writing .heading{
+font-weight: bolder;
+font-size: 3rem;
+letter-spacing: 5px;
+color: rgb(77, 75, 75);
+}
+.writing .smallheading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(46, 46, 46);
+}
+.writing .text{
+    margin-top: 10px;
+    text-align: justify;
+}
 
 
